@@ -38,7 +38,4 @@ if [ ! -f "$HOME/.kube/config" ]; then
     fi
 fi
 
-echo "/usr/local/bin/kubectl"
-echo "/usr/local/bin/kubectl" >> $GITHUB_PATH
-
 kubectl $*
